@@ -25,7 +25,7 @@ export class CalendarPage {
   }
 
 CreateCalendar(){
-  this.calendar.createCalendar('CarCalendarCalendar').then(
+  this.calendar.createCalendar('Simple Helper Calender').then(
   (msg) => { console.log(msg); },
   (err) => { console.log(err); }
 );
