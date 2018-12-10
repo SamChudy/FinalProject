@@ -3,6 +3,11 @@ import { NavController } from 'ionic-angular';
 import { CameraPage } from '../camera/camera'
 import { MusicPage } from '../music/music'
 import { ContactsPage } from '../contacts/contacts'
+import { BatteryPage } from '../battery/battery'
+import { CalendarPage } from '../calendar/calendar'
+import { StepsPage } from '../steps/steps'
+
+
 
 
 
@@ -31,5 +36,18 @@ export class HomePage {
   console.log('crap');
 
   }
+  buttonBatteryclick() {
+  this.navCtrl.push(BatteryPage);
+  console.log('crap');
+
+  }
+
+  buttonCalendarclick() {
+  this.navCtrl.push(CalendarPage);
+  console.log('crap');}
+
+  buttonStepsclick() {
+  this.navCtrl.push(StepsPage);
+  console.log('crap');}
 
 }

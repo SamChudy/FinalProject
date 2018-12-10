@@ -7,20 +7,19 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Contacts</ion-title>
+    <ion-title>Battery</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-
   <br>
-  <button ion-button type="button" name="selectContacts" (click)="selectContacts()">Select Contact</button>
+  <button ion-button type="button" name="selectBattery" (click)="selectBattery()">Get Battery Percentage</button>
   <br>
   <ion-item>
-            <ion-label>Phone</ion-label>
-            <ion-input type="tel" [(ngModel)]="contact.phoneNumbers" name="phoneNumbers"></ion-input>
+            <ion-label>Level:</ion-label>
+            <ion-input type="tel" [(ngModel)]="batterylevel.Level" name="Level"></ion-input>
         </ion-item>
 
 </ion-content>
